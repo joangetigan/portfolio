@@ -9,109 +9,130 @@
 	<title>Joan Getigan | Portfolio</title>
 
 	<!-- CSS, font styles -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-	<link href="style.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:300|Droid Sans" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 
 	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="css/jquery-3.2.1.min.js"></script>
 
 	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="css/bootstrap.min.js"></script>
 </head>
 
 <body>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-1"></div>
+<div class="container">
+	<div class="col-md-offset-1 col-md-5" style="padding-right: 0; padding-left: 0">
+		<section class="block-content t-block-teal l-block-spacing">
+			<div class="l-contained">
+				<ul class="timeline-list">
+					<li>
+		  				<div class="content">
+							<div>2017 May - August</div>
+							<p>
+								Attended Coding Bootcamp at Tuitt Inc.<br>
+								Finished 3 portfolio websites.<br>
+								<p>See <a href="#web1">Capstone 3</a> - E-commerce Website<br>built with Laravel.</p>
+								<p>See <a href="#web2">Capstone 2</a> - Dynamic Ebook Sharing Website.</p>
+								<p>See <a href="#web3">Capstone 1</a> - Static Catering Website.</p>
+							</p>
+						</div>
+					</li>
+					<li>
+		  				<div class="content">
+							<div>2014 May - 2017 Jan</div>
+							<p>
+								Worked as Sports Analyst at Caspo Inc.
+							</p>
+						</div>
+					</li>
+					<li>
+		  				<div class="content">
+							<div>2014 April</div>		
+							<p>
+								Graduated with a degree in Mathematics at UP Diliman.
+							</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+	</div>
 
-			<div class="col-md-2 name">
-				<div class="surname">getigan</div>
-				<div class="firstname">JOAN</div>
-			</div>
+	<div class="col-md-2 name">
+		<div class="surname">getigan</div>
+		<div class="firstname">JOAN</div><br>
+		<img src="coding.jpg" class="img-thumbnail img-responsive">
+		<label>Aspiring Web Developer</label>
+	</div>
 
-			<div class="col-md-2 pic">
-				<img src="" class="img-thumbnail">
-			</div>
-			<div class="col-md-2 pic">
-				<img src="" class="img-thumbnail">
-			</div>
-			<div class="col-md-2 pic">
-				<img src="" class="img-thumbnail">
-			</div>
-			<div class="col-md-2 pic">
-				<img src="" class="img-thumbnail">
-			</div>
+	<div class="col-md-2 pic">
+		<img src="me.jpeg" class="img-thumbnail img-responsive">
+	</div>
 
-			<div class="col-md-1"></div>
-		</div><br><br>
-
-		<div class="entries">
-			<div class="entry">
-				<div class="title big">2017</div>
-				<div class="subtitle">August</div>
-				<div class="body">
-					<p>
-						Finished Coding Bootcamp at Tuitt Inc.<br> 
-						Created 3 portfolio-worthy websites.<br>
-						<p class="skill">Laravel Framework.</p>
-						See <a href="">Capstone3</a> - MVC.
-					</p>
-				</div>
-			</div>
-
-			<div class="entry">
-				<div class="title">2017</div>
-				<div class="subtitle">June</div>
-				<div class="body">
-					<p>
-						Back-end training.<br> 
-						<p class="skill">Javascript, PHP, Database, MySQL<br> 
-						+ (Jquery, Ajax)</p>
-						See <a href="http://bookmusketeers.x10host.com/" target="block">Capstone2</a> - Dynamic website.<br><br>
-						<img src="web2.png" class="web">
-					</p>
-				</div>
-			</div>
-
-			<div class="entry">
-				<div class="title">2017</div>
-				<div class="subtitle">May</div>
-				<div class="body">
-					<p>
-						Started Bootcamp at Tuitt Inc.<br>
-						Front-end training.<br> 
-						<p class="skill">HTML, CSS, Bootstrap</p>
-						See <a href="">Capstone1</a> - Static website.<br><br>
-						<img src="web1.png" class="web">
-					</p>
-				</div>
-			</div>
-
-			<div class="entry">
-				<div class="title">2017</div>
-				<div class="subtitle">January</div>
-				<div class="body">
-					<p>
-						Resigned from Caspo Incorporated as Sports Analyst.
-					</p>
-				</div>
-			</div>
-
-			<div class="entry">
-				<div class="title big">2014</div>
-				<div class="subtitle">May</div>
-				<div class="body">
-					<p>
-						Graduated from UP Diliman.<br>
-						<p class="skill">Bachelor of Science in Mathematics.</p>
-						Started working as Sports Analyst in Caspo Incorporated.
-					</p>
-				</div>
-			</div>
+	<div class="col-md-5" style="margin-top: 10px;">
+		<ul class="nav nav-tabs">
+		 	<li class="active"><a data-toggle="tab" href="#languages">Skills | Languages</a></li>
+		 	<li><a data-toggle="tab" href="#contact">Download Resume | Contact</a></li>
+		</ul>
+		<div class="tab-content">
+		  	<div id="languages" class="tab-pane fade in active">
+		  		<ul>
+		  			<li>&nbsp</li>
+		  			<li>Laravel Framework</li>
+		  			<li>PHP</li>
+		  			<li>MySQL | Database</li>
+		  			<li>HTML</li>
+		  			<li>CSS | Bootstrap</li>
+		  			<li>Javascipt | Jquery | AJAX</li>
+		  		</ul>
+		  	</div>
+		  	<div id="contact" class="tab-pane fade">
+		  		<ul>
+		  			<li>&nbsp</li>
+			  		<li>
+			  			<a href="#" target="resume.pdf" class="resume"><i class="fa fa-download" aria-hidden="true"></i>&nbspDownload Resume</a>
+			  		</li>
+		  			<li>&nbsp</li>
+			  		<li>
+			  			<i class="fa fa-phone" aria-hidden="true"></i>
+			  			&nbsp0906-5688544
+			  		</li>
+			  		<li>
+			  			<a href="mailto:joan.getigan@gmail.com">
+			  			<i class="fa fa-envelope-o" aria-hidden="true"></i>
+			  			&nbspjoan.getigan@gmail.com</a>
+			  		</li>
+			  		<li>
+			  			<a href="https://github.com/joangetigan" target="block"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>&nbsp&nbsp
+			  			<a href="https://www.linkedin.com/feed/" target="block"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+			  		</li>
+		  		</ul>
+		  	</div>
 		</div>
 	</div>
+	<div class="clearfix"></div>
+	<div class="col-md-4 box" id="web1">
+		<img src="web1.png" class="img-responsive website">
+		<div class="middle">
+			<div class="text">CAPSTONE 1</div>
+		</div>
+	</div>
+	<a href="http://bookmusketeers.x10host.com/" target="block">
+		<div class="col-md-4 box" id="web2">
+			<img src="web2.png" class="img-responsive website">
+			<div class="middle">
+				<div class="text">CAPSTONE 2</div>
+			</div>
+		</div>
+	</a>
+	<div class="col-md-4 box" id="web3">
+		<img src="web3.png" class="img-responsive website">
+		<div class="middle">
+			<div class="text">CAPSTONE 3</div>
+		</div>
+	</div>
+</div>
 </body>
 
 </html>
