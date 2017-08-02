@@ -91,7 +91,7 @@
 		  		<ul>
 		  			<li>&nbsp</li>
 			  		<li>
-			  			<a href="#" target="resume.pdf" class="resume"><i class="fa fa-download" aria-hidden="true"></i>&nbspDownload Resume</a>
+			  			<a target="_blank" href="resume.pdf" class="resume"><i class="fa fa-download" aria-hidden="true"></i>&nbspDownload Resume</a>
 			  		</li>
 		  			<li>&nbsp</li>
 			  		<li>
@@ -105,7 +105,7 @@
 			  		</li>
 			  		<li>
 			  			<a href="https://github.com/joangetigan" target="block"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>&nbsp&nbsp
-			  			<a href="https://www.linkedin.com/feed/" target="block"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+			  			<a href="https://www.linkedin.com/in/joan-getigan-987a597a/" target="block"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
 			  		</li>
 		  		</ul>
 		  	</div>
