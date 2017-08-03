@@ -112,13 +112,16 @@
 		</div>
 	</div>
 	<div class="clearfix"></div>
-	<div class="col-md-4 box" id="web1">
-		<img src="web1.png" class="img-responsive website">
-		<div class="middle">
-			<div class="text">CAPSTONE 1</div>
+
+	<a href="http://jconnections.herokuapp.com" target="block">
+		<div class="col-md-4 box" id="web1">
+			<img src="web1.png" class="img-responsive website">
+			<div class="middle">
+				<div class="text">CAPSTONE 1</div>
+			</div>
 		</div>
-	</div>
-	<a href="http://bookmusketeers.x10host.com/" target="block">
+	</a>
+	<a href="http://bookmusketeers.x10host.com/capstoneTwo" target="block">
 		<div class="col-md-4 box" id="web2">
 			<img src="web2.png" class="img-responsive website">
 			<div class="middle">
@@ -126,12 +129,14 @@
 			</div>
 		</div>
 	</a>
-	<div class="col-md-4 box" id="web3">
-		<img src="web3.png" class="img-responsive website">
-		<div class="middle">
-			<div class="text">CAPSTONE 3</div>
+	<a href="http://groclara.herokuapp.com" target="block">
+		<div class="col-md-4 box" id="web3">
+			<img src="web3.png" class="img-responsive website">
+			<div class="middle">
+				<div class="text">CAPSTONE 3</div>
+			</div>
 		</div>
-	</div>
+	</a>
 </div>
 </body>
 
