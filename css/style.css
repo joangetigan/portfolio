@@ -88,6 +88,7 @@ li {
 
 .name {
   text-align: right; 
+  margin-top: 0;
 }
 .surname {
   font-family: 'Montserrat', sans-serif;
